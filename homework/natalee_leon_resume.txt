@@ -1,26 +1,36 @@
-Natalee Leon
-Syracuse, NYÊ¥Ê(585)469-3026
-ncleon@syr.edu
-EDUCATION
-
-Syracuse University                                                                     Aug '18 - May '22
-Information Management and Technology 
-Public Communications                 
-EXPERIENCE
-
-SIDEARM Sports, Streaming Support Specialist
-Jan '20 Ð Present
-* Assist SIDEARM clients with a range of issues pertaining to video/audio streaming
-* Provide timely and informed responses to clients via phone, email, and ticketing system 
-* Maintain a positive and professional relationship with clients 
-Reservation and Building Operations, Centers and Programming Services
-Feb Õ19 Ð May Ô19
-* Supervised two student centers located on Syracuse UniversityÕs campus
-* Scheduled eight Ð fifteen events per shift for university organizations
-* Answered phone calls and responded to emails in a quick and efficient manner
-SKILLS
-
-* MOS Certified 
-* Social media
-* Adobe InDesign and Premier
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Natalee Leon</title>
+    <i>Syracuse, NY</i></br> (585)469-3026</br>
+    ncleon@syr.edu</br>
+</head>
+<body>
+  <h1>EDUCATION</h1>
+  <h2>Syracuse University</h2></br>                                                                     Aug '18 - May '22
+  Information Management and Technology</br> 
+  Public Communications</br>                 
+<h1>EXPERIENCE</h1>
+<h2><strong>SIDEARM Sports,</strong> <i>Streaming Support Specialist</i></h2></br>
+  Jan '20 to Present</br>
+<ul>
+  <li>Assist SIDEARM clients with a range of issues pertaining to video/audio streaming</li>
+  <li>Provide timely and informed responses to clients via phone, email, and ticketing system</li> 
+  <li>Maintain a positive and professional relationship with clients</li>
+</ul>
+<h2><strong>Reservation and Building Operations,</strong> <i>Centers and Programming Services</i></h2></br>
+Feb '19 to May '19</br>
+<ul>
+  <li>Supervised two student centers located on Syracuse University's campus</li>
+  <li>Scheduled eight Ð fifteen events per shift for university organizations</li>
+  <li>Answered phone calls and responded to emails in a quick and efficient manner</li>
+</ul>
+<h1>SKILLS</h1>
+<ul>
+  <li>MOS Certified</li>
+  <li>Social media</li>
+  <li>Adobe InDesign and Premier</li>
+</ul>
+</body>
+</html>
 
