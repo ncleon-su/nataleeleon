@@ -1,0 +1,136 @@
+* {font-family: sans-serif;}
+nav ul {
+  list-style-type: none;
+}
+.page-container {width: 1024px; margin: 0 auto; padding: 0;}
+#logo {width: 150px; height: 150px; float: left; text-align: center;}
+#search {width: 20em; height: 4em; float: right;}
+#search input {width: 17em; height: 3em; float: left;}
+#search-btn {width: 3em; height: 3em; background-color: #ccc; float: right; padding: 0 1em; text-align: center;}
+#search-btn i {padding: 30% 0;}
+#top-panel {margin: 1em 1.5em 1em 1em;}
+#top-banner {background:url(images/W7-lab-banner-background.png) no-repeat;height:320px;}
+#banner-heading {background-color: #fff; margin-left:2em; margin-top: 4em; width: 30%; padding: 0.5em; display: inline-block;}
+#banner-list {padding: 1em;}
+#page-center {margin: 0 2em 0 0;}
+#bottom-row {margin: 1em 0; border-bottom:3px solid #666;}
+#social {padding-left: 1em;}
+.grid-row {padding: 1em 0 1em 1em;}
+#extra-img {float: left; padding: 2em 1em;}
+#extra-img img {float: left;}
+#extra-img p {display: inline-block; margin-left: 1em;}
+li.spaced-list {padding-bottom: 1.5em;}
+header {height: 8em; margin: 1em 0; padding: 0;}
+nav {height: 26px; margin: 1em 0; padding: 10px 0 20px 10px; background-color: #ccc; font-size: 32px;}
+.padded {background-color: #ccc; padding: 1em; margin: .75em 0;}
+#center-right {padding: 1em 0 0 1em; margin: 0;}
+#carousel .col {margin: 1em 0 1em 1em;}
+/* 
+Review the rest of this CSS file and add comments. The goal of the review is to give you an idea of how this file can be
+reused for future class and individual project work.
+
+The comments should detail
+- What does the class do?
+- What will be a good use case of this class?*/
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+/*-The .container class is the parent element that adds default padding to an HTML Element.
+- A good use of this class would be if you wanted to add a specific color to a standard heading/footer.
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+ - the .row class is the parent element to .col, that creates horizontal groups of columns
+- A good use of this class would be to add wrap, which allows the content to flow onto multiple lines rather than being forced in a single line. 
+.col {
+  display: flex;
+  margin: 0 auto;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-3 {
+  flex: 3;
+}
+ - The .col class is the child element to the .row class, and it creates vertical sections of content, splitting the webpage into a grid. 
+- The number on the end of the .col class (e.g; col-1) indicates the amount of columns that the section of content should span. 
+- A good use of this class would be to place content in a specific place on the screen, for example adding a menu section only to the left side of the webpage. 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+ - The responsive class is an element that allows the content's layout to change based on the kind of technology that it is being displayed on. 
+- A good use of this class is to change the layout based on what kind of screen the content is going to be displayed, such as having the content display as it would on a mobile device.
+.text-center {
+  text-align: center;
+}
+- The text-center class groups any content that is meant to be center aligned. 
+- A good use of this class would be to center a specific element, such as the header, which is responsive to different devices. 
+.text-right {
+  text-align: right;
+}
+- Similarly to the text-center class, the text-right class groups all content that is meant to be aligned to the right. 
+- A good use of this class would be when you would like specific content to be aligned to the right, such as an ordered list, which is flexible. 
+.card {
+  border: 1px solid #ccc;
+}
+- The card class creates a more flexible content container 
+- A good use for this class would be when you want to create an aside element that may include a title, text, image, etc.
+.rounded-border {
+  border-radius: 5px;
+}
+ - The rounded-border class allows the web developer to select all content that they want to display with rounded edges, as well as set the radius. 
+- A good use of this class would be to add a specific look and size to a table by including rounded edges and a specific radius. 
+.m-1 {
+  margin: 10px;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+ - all of the m classes are used to select content that will have a specific margin size. 
+- A good use of this class would be to set a margin that will be responsive when displayed on different devices.  
+.p-1 {
+  padding: 10px;
+}
+
+.pt-1 {
+  padding-top: 10px;
+}
+
+.pl-1 {
+  padding-left: 10px;
+}
+
+.pr-1 {
+  padding-right: 10px;
+}
+
+.pb-1 {
+  padding-bottom: 10px;
+}
+- All of the p classes are used to select content that will have a specific padding size. 
+- A good use of this class would be to choose specific content that will have specific padding sizing.
+*/
