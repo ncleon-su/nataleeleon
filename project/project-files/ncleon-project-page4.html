@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>VOTE! Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+
+<h1>Contact Us!</h1> 
+<nav>
+    <ul>
+        <li><a href="https://ncleon-su.github.io/nataleeleon/project/project-files/ncleon-project-page1.html">Page 1</a></li>
+        <li><a href="https://ncleon-su.github.io/nataleeleon/project/project-files/ncleon-project-page2.html">Page 2</a></li>
+        <li><a href="https://ncleon-su.github.io/nataleeleon/project/project-files/ncleon-project-page3.html">Page 3</a></li>
+    </ul>
+    </nav>
+<section class="row">
+    <div class="col boxed">
+<form action="mailto:ncleon@syr.edu" method="post" enctype="text/plain">
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name"><br>
+<label for="email">Email:</label><br>
+<input type="text" id="email" name="email"><br>
+<label for="topic">Topic</label><br>
+<select id="topic" name="topic" multiple>
+        <option value =""> Choose one:</option>
+        <option value ="question">Question</option>
+        <option value="comment">Comment</option>
+        <option value="other">Other</option>
+    </select><br>
+<label for="comment">Question or Comment:</label><br>
+<textarea type="text" id="comment" name="comment" rows="10" cols="30"></textarea><br>
+<input type="submit" value="SEND">
+<input type="reset" value="RESET">
+</form>
+</div>
+</section>
+</body>
+</html>
+
