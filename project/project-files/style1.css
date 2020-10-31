@@ -1,0 +1,119 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: navy;
+}
+.row {
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    height: 400px;
+    color:navy; 
+    line-height: 150%;
+}
+.col {
+    flex: 2;
+    padding: 1em;
+ /*   height: 12px; */
+    text-align: center;
+    width: 500px;
+    margin-left: 30%;
+}
+.col-1 {
+    flex: 2;
+    padding: 1em;
+    height: 500px;
+    width: 350px;
+    margin-left: 5%;
+}
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+   /* float: left; */
+    text-align: center;
+    display: inline-block;
+}
+nav ul li a {
+    display: block; 
+    color: navy; 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none; 
+}
+nav ul li a:hover {
+    background-color: crimson;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.link {
+    font-size: 24px;
+}
+.box {
+    border: 3px solid crimson;
+    border-style: round;
+    border-radius: 25px;
+    padding: 20px;
+    width: 1350px;
+    margin: 2%;
+}
+.boxed {
+    border: 3px solid crimson;
+    padding: 20px;
+    width: 500px;
+    height: 780px;
+
+} 
+a {
+    text-decoration: none; color: navy;
+}
+a:visited {
+    text-decoration: none; color: navy;
+}
+.video {
+    position: absolute;
+    right: 5%;
+    top: 75%;
+    float: right;
+    border: 3px solid crimson;
+    padding: 20px;
+}
+.video-2 {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    float: right;
+    border: 3px solid crimson;
+    padding: 20px;
+}
+.img-1 {
+    position: absolute;
+    right: 68%;
+    top: 110%;
+    float: left;
+}
+.img-2 {
+    position: absolute;
+    top: 105%;
+    float: center;
+
+}
+.img-3 {
+    position: absolute;
+    top: 110%;
+    left: 38%;
+}
+
